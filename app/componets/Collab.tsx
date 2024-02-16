@@ -11,7 +11,9 @@ function Collab() {
       <h3 className="text-white text-xl animate-fade-in-3">
         Check our Most Recent Collab!
       </h3>
-      <Link target="_blank" href="https://decentsf.com/products/lovergirl-x-kdmnorcal-collab-tee">
+      <Link
+        target="_blank"
+        href="https://decentsf.com/products/lovergirl-x-kdmnorcal-collab-tee">
         <div className="flex items-center justify-center flex-1 animate-fade-in-3 cursor-pointer group md:hover:shadow-outline-gray rounded-[9px] p-3 md:p-10 transition duration-200 ease-out">
           <Image
             src={DecentImage}
@@ -22,6 +24,9 @@ function Collab() {
           <Image src={xImage} alt="collab image" width={25} height={25} />
           <Image src={KdmImage} alt="collab image" width={100} height={100} />
         </div>
+      </Link>
+      <Link href="https://decentsf.com/pages/sponsorship" target="_blank" className="my-3">
+        <p className="text-[#4B4C52] animate-fade-in-3">Want to get Sponsor? Apply here!</p>
       </Link>
     </div>
   );
